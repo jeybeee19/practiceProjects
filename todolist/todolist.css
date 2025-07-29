@@ -1,0 +1,24 @@
+
+.outer{
+       min-height: 300px;
+      min-width: 500px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+       background: repeating-linear-gradient(
+      white,            /* base color */
+       white 28px,       /* space before the line */
+       #add8e6 28px,     /* line color */
+       #add8e6 29px      /* line thickness */
+      );
+      height: auto;
+      width: auto;
+
+      position: absolute;
+      top: 20%;
+      left: 30%;
+        border-radius: 15px; /* rounded corners */
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+      font-family: 'Segoe UI', sans-serif;
+     
+}
