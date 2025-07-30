@@ -1,86 +1,86 @@
-body{
-    text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: aliceblue;
+  font-weight: 500;
 }
-.container{
-    background-color: black;
-    max-width: 500px;
-    height: 150px;
-    margin-left: auto;
-    margin-right: auto;
+section {
+  margin-bottom: 10px;
 }
-.marker{
-    display: flex;
-  justify-content: center; /* center left-right */
-  align-items: center;     /* center top-bottom */
+body {
+  background-image: url("https://thepreachersword.files.wordpress.com/2013/06/helpingothers.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
 }
-.red{
-    width: 70%;
-    height: 30px;
-    background: red;
+header {
+  text-align: center;
 }
-.green{
-    width: 70%;
-    height: 30px;
-    background: green;
+.container {
+  min-height: 100vh;
+  width: 100vw;
+  background: rgba(37, 133, 189, 0.4);
+  padding: 50px;
 }
-.blue{
-    width: 70%;
-    height: 30px;
-    background: blue;
+#title {
+  margin-bottom: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.m{
-    
-      background: linear-gradient(to left, red, blue);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; /* makes actual text color invisible */
+.forms {
+  padding: 50px;
+  max-width: 600px;
+  height: auto;
+  background: rgba(37, 133, 189, 0.8);
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3px;
 }
-.a{
-    
-      background: linear-gradient(to left, rgb(255, 123, 0), rgb(0, 255, 21));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; /* makes actual text color invisible */
+.inputs {
+  color: black;
+  width: 100%;
+  border-radius: 4px;
+  border: none;
+  height: 35px;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
-.r{
-    
-      background: linear-gradient(to left, rgb(14, 221, 24), rgb(35, 35, 165));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; /* makes actual text color invisible */
+select,
+option {
+  color: black;
+  width: 100%;
+  border-radius: 4px;
+  border: none;
+  height: 35px;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
-.k{
-    
-      background: linear-gradient(to right, rgb(0, 255, 200), rgb(153, 7, 211));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; /* makes actual text color invisible */
+span {
+  font-size: 14px;
 }
-.e{
-    
-      background: linear-gradient(to right, rgb(18, 18, 230), rgb(235, 3, 157));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; /* makes actual text color invisible */
+.inputs::placeholder {
+  padding: 10px;
+  font-size: 17px;
 }
-.r2{
-    
-      background: linear-gradient(to right, rgb(255, 255, 255), red);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; /* makes actual text color invisible */
+.recommend {
+  margin-right: 10px;
+  margin-bottom: 15px;
+  transform: scale(1.4);
+}
+.checkboxs {
+  margin-right: 10px;
+  margin-bottom: 15px;
+  transform: scale(1.4);
+}
+textarea {
+  border-radius: 4px;
+  color: black;
+  padding: 20px;
+}
+button {
+  width: 100%;
+  height: 35px;
+  background-color: green;
+  border: none;
 }

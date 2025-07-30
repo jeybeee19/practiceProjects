@@ -1,31 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>to do list</title>
-    <link rel="stylesheet" href="marker.css">
-</head>
-<body>
-    <h1><span class="m">M</span><span class="a">A</span><span class="r">R</span><span class="k">K</span><span class="e">E</span><span class="r2">R</span></h1>
+    <link rel="stylesheet" href="marker.css" />
+  </head>
+  <body>
     <div class="container">
+      <main>
+        <header>
+          <h1 id="title">ChurchCamp Survey Form</h1>
+          <p id="description">
+            Help us improve future camps by sharing your experience. Your
+            feedback matters!
+          </p>
+        </header>
+        <br /><br />
+        <div class="forms">
+          <form id="survey-form">
 
-        <div class="redT"></div>
-        <div class="triangleR"></div>
-        <div class="marker red">
-            <div class="inside"></div>
-        </div>
+            <section>
+              <label for="name">Name</label><br />
+              <input
+                type="text"
+                id="name"
+                class="inputs"
+                placeholder="Name"
+                required
+              />
+            </section>
 
-        <div class="greenT"></div>
-        <div class="marker green">
-             <div class="inside"></div>
-        </div>
+            <section>
+              <label for="email">Email</label><br />
+              <input
+                class="inputs"
+                type="email"
+                id="email"
+                placeholder="spongebob@gmail.com"
+                required
+              />
+            </section>
 
-        <div class="blueT"></div>
-        <div class="marker blue">
-            <div class="inside"></div>
+            <section>
+              <label for="number">Age (<span>optional</span>)</label><br />
+              <input
+                class="inputs"
+                type="number"
+                id="number"
+                name="age"
+                min="1"
+                max="120"
+                value="18"
+                required
+              />
+            </section>
+
+            <section>
+              <label for="dropdown"
+                >Which best describes your role in the church camp?</label
+              ><br />
+              <select id="dropdown">
+                <option value="">-- Please choose an option --</option>
+                <option value="camper">Camper</option>
+                <option value="counselor">Counselor</option>
+                <option value="staff">Staff</option>
+                <option value="volunteer">Volunteer</option>
+                <option value="speaker">Speaker</option>
+                <option value="other">Other</option>
+              </select>
+            </section>
+
+            <section>
+                <labe>Would you recommend freeCodeCamp to a friend?</label><br><br>
+              <input type="radio" name="yes-no" class="recommend" value="Yes"/>
+              <label>Yes</label><br>
+              <input type="radio" name="yes-no" class="recommend" value="No"/>
+              <label>No</label>
+            </section>
+
+            <section>
+                <label>What is your favorite feature of ChurchCamp?</label><br><br>
+                <input class="checkboxs" type="checkbox" name="checkbox" value="WorshipSessions"> Worship Sessions<br>
+                <input class="checkboxs" type="checkbox" name="checkbox1" value="Fun Activities & Games"> Fun Activities & Games<br>
+                <input class="checkboxs" type="checkbox" name="checkbox2" value="Fellowship & Friendships"> Fellowship & Friendships<br>
+            </section>
+
+            <section>
+              <label for="comments">Any comments or suggestions?</label><br><br> 
+              <textarea rows="10" cols="50" id="comments" name="comments"  placeholder="Enter your comment here..."></textarea>
+            </section>
+
+            <button id="submit">Submit</button>
+          </form>
         </div>
+      </main>
     </div>
-  
-</body>
+  </body>
 </html>
