@@ -1,0 +1,86 @@
+body{
+    text-align: center;
+}
+.container{
+    background-color: black;
+    max-width: 500px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.marker{
+    display: flex;
+  justify-content: center; /* center left-right */
+  align-items: center;     /* center top-bottom */
+}
+.red{
+    width: 70%;
+    height: 30px;
+    background: red;
+}
+.green{
+    width: 70%;
+    height: 30px;
+    background: green;
+}
+.blue{
+    width: 70%;
+    height: 30px;
+    background: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.m{
+    
+      background: linear-gradient(to left, red, blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; /* makes actual text color invisible */
+}
+.a{
+    
+      background: linear-gradient(to left, rgb(255, 123, 0), rgb(0, 255, 21));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; /* makes actual text color invisible */
+}
+.r{
+    
+      background: linear-gradient(to left, rgb(14, 221, 24), rgb(35, 35, 165));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; /* makes actual text color invisible */
+}
+.k{
+    
+      background: linear-gradient(to right, rgb(0, 255, 200), rgb(153, 7, 211));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; /* makes actual text color invisible */
+}
+.e{
+    
+      background: linear-gradient(to right, rgb(18, 18, 230), rgb(235, 3, 157));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; /* makes actual text color invisible */
+}
+.r2{
+    
+      background: linear-gradient(to right, rgb(255, 255, 255), red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; /* makes actual text color invisible */
+}
