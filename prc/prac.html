@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/prc/pra.css" />
+  </head>
+  <body>
+    <div class="h1">
+      <h1>
+        <span style="color: #006400">C</span>
+        <span style="color: #66cdaa">A</span>
+        <span style="color: #228b22">S</span>
+        <span style="color: #2e8b57">H</span>
+        <span style="color: #3cb371">I</span>
+        <span style="color: #66cdaa">E</span>
+        <span style="color: #228b22">R</span>
+        <span style="color: #ffd700">S</span>
+        <!-- Gold -->
+        <span style="color: #ffff00">Y</span>
+        <!-- Yellow -->
+        <span style="color: #fffacd">S</span>
+        <!-- LemonChiffon -->
+        <span style="color: #fafad2">T</span>
+        <!-- LightGoldenRodYellow -->
+        <span style="color: #ffefd5">E</span>
+        <!-- PapayaWhip -->
+        <span style="color: #f0e68c">M</span>
+        <!-- Khaki -->
+      </h1>
+    </div>
+    <div class="outer">
+      <h2>Menu List</h2>
+      <section class="menuList">
+        <ul>
+          <li>Product</li>
+          <br />
+          <li>Burger</li>
+          <li>Fries</li>
+          <li>Soda</li>
+        </ul>
+        <ul>
+          <!-- keeps vertical alignment with heading -->
+          <li>Price</li>
+          <br />
+          <li>₱80</li>
+          <li>₱40</li>
+          <li>₱20</li>
+        </ul>
+      </section>
+      <br /><br /><br />
+      <section class="form">
+        <input type="text" placeholder="product" class="productName" /><input
+          type="number"
+          min="1"
+          value="1"
+          class="quantity"
+        />
+        <button onclick="showOrder.show()">add</button
+        ><a href="/pracnewpage.html"><button onclick="">buy</button></a
+        ><br /><br />
+        <div class="orders">
+          <h4>order List</h4>
+          <div class="orderList"></div>
+        </div>
+      </section>
+    </div>
+    <script type="module" src="/prc/prac.js"></script>
+  </body>
+</html>
