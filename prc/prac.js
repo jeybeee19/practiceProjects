@@ -69,7 +69,7 @@ export const showOrder = {
   // Function to remove an order by index
   remove(index) {
     inputOrder.splice(index, 1); // remove the item from array
-    localStorage.setItem("orders", JSON.stringify(inputOrder)); // update storage
+    localStorage.setItem("orders", JSON.stringify(inputOgit statusrder)); // update storage
     this.display(); // refresh the order list
   },
 };
@@ -81,4 +81,6 @@ export function load() {
 }
 // Make the showOrder object available to the browser (needed for delete button)
 window.showOrder = showOrder;
-console.log("hi");
+
+console.log('hi');
+console.log("Change test");
